@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Loop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+
+
+    <!-- owl  -->
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="box-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 left">
+                        <h1 class="text-white">POP design</h1>
+
+                        <p class="pera"> New HTML Template with pop up pages and use this layout for your website</p>
+                    </div>
+                    <div class="col-md-6 right">
+                        <div class="content">
+                            <div class="grid">
+                                <div class="grid_item" id="team-link">
+                                    <div class="product" id="product">
+                                        <div class="tm-nav-link" onclick="clickon()">
+                                            <i class="fa-solid fa-house tm-nav-icon"></i>
+                                            <span class="text-white tm-nav-text">Wel Come</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid_item" id="team-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link" onclick="openFun()">
+                                            <i class="fa-solid fa-user-plus tm-nav-icon"></i>
+                                            <span class="text-white tm-nav-text">OUR TEAM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid_item" id="team-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fa-solid fa-handshake tm-nav-icon"></i>
+                                            <span class="text-white tm-nav-text">OUR Work</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid_item" id="team-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link" onclick="continfo()">
+                                            <i class="fa-solid fa-message tm-nav-icon"></i>
+                                            <span class="text-white tm-nav-text">OUR Contect</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fot">
+                <a href="">Copyright © 2024 Your Company. Design: Tooplate</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- section home  -->
+    <section class="sec">
+        <div class="container posi">
+            <div class="row p-5 sec-bk" id="secbk">
+                <div class="col-md-6  ">
+                    <h2>Wel come to the popup desogrn</h2>
+                    <img src="img/welcome-1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut vitae quae ea veniam quidem
+                        maiores, doloremque at ex dolor consequuntur fugiat consectetur aperiam repudiandae, sint
+                        blanditiis voluptate vero nisi repellat!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime maiores, aliquid in
+                        non aut veniam ad fugit nesciunt quasi <a href="#">tooltip</a> voluptatum, eum porro doloremque
+                        saepe deleniti aliquam
+                        libero harum iusto?</p>
+                </div>
+                <div class="col-md-6  ">
+                    <h2>Wel come to the popup desogrn</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut vitae quae ea veniam quidem
+                        maiores, doloremque at ex dolor consequuntur fugiat consectetur aperiam repudiandae, sint
+                        blanditiis voluptate vero nisi repellat!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime maiores, aliquid in
+                        non aut veniam ad fugit <a href="#">Lorem, ipsum.</a> nesciunt quasi voluptatum, eum porro
+                        doloremque saepe deleniti aliquam
+                        libero harum iusto?</p>
+                    <img src="img/welcome-1.jpg" alt="">
+                </div>
+                <span class="psn" onclick="disnone()">X</span>
+            </div>
+        </div>
+    </section>
+    <!-- section home -->
+
+    <!-- secton our menu  -->
+    <section class="sec1">
+        <div class="container">
+            <div class="row" id="back">
+                <div class="col-md-12 back">
+                    <span class="psn" onclick="closefun()">X</span>
+                    <h1>Background of Our Team</h1>
+                    <div class="sec-pera">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam autem, neque iusto eius dolor
+                            rem magni laudantium cumque, aut pariatur, voluptatem quisquam! Placeat provident asperiores
+                            corrupti? Expedita, provident. Animi fugit temporibus aut nesciunt delectus quibusdam dolor,
+                            vitae esse. Ipsa at dolores cupiditate minus unde, vel perspiciatis in facilis accusantium
+                            expedita, quibusdam, minima aliquam voluptate temporibus maiores vero ratione aperiam
+                            consectetur excepturi? Laudantium optio exercitationem aut? Quis nemo, ipsam veniam corporis
+                            fugit rerum eaque corrupti harum dolores aliquam modi voluptate necessitatibus quia, ut
+                            officia velit exercitationem qui? Officiis vitae odio animi pariatur dolor, minima laborum
+                            voluptatum maiores a libero veritatis iste.</p>
+
+                        <img src="img/welcome-2.jpg" alt="">
+
+                    </div>
+                    <button class="blue">Read More</button>
+                </div>
+            </div>
+    </section>
+    <!-- secton our menu  -->
+    <!-- section our work start -->
+
+
+    <!-- <section class="section-2">
+        <div class="container">
+            <div class="row oursec">
+                <h1>
+                    Our Work
+                </h1>
+                <p>Aliquam interdum, nisl sed faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at
+                    enim. Suspendisse a dictum tortor, vel rhoncus libero. Integer at lacus velit. Nullam dapibus
+                    venenatis placerat.</p>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery-img-01-tn.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  -->
+    <!-- section our work end  -->
+
+
+    <!-- form section start  -->
+
+    <section class="sec-form">
+        <div class="container ">
+            <div class="row  color" id="color">
+                <div class="col-md-12">
+                    <span class="psn" onclick="closef()">X</span>
+                    <h1 class="text-center">Contect us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus similique ad illo porro,
+                        laudantium pariatur facere molestias modi nesciunt quae nobis. Ullam sequi alias fugit nam rerum
+                        voluptas, excepturi consequuntur accusantium voluptates iste non quod molestiae quidem
+                        reiciendis, id quo obcaecati esse cumque at itaque amet totam exercitationem neque sed. Omnis
+                        deserunt corrupti accusamus mollitia modi ducimus perspiciatis quo dolor dignissimos unde illo
+                        adipisci fugit corporis cupiditate magni asperiores quia repellat, nisi nobis officiis?
+                        Consectetur necessitatibus aliquam fuga tenetur asperiores dolor dignissimos quas, tempore
+                        aliquid sunt aspernatur voluptatem! Expedita dolor alias corrupti architecto aliquam earum
+                        debitis maiores suscipit nostrum.</p>
+                    <form action="" class="disp">
+                        <input type="text" class="inp" placeholder="Name">
+                        <input type="text" class="inp" placeholder="Email">
+
+                    </form>
+                    <textarea name="" id="" placeholder="Text-area"></textarea>
+                    <button class="blue sum">Sumbit</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- from section end  -->
+
+
+    <script>
+
+        function clickon() {
+            let x = document.getElementById("secbk");
+            x.style.display = "inline-block";
+            x.style.display = "flex"
+
+        }
+
+        function disnone() {
+            let t = document.getElementById("secbk");
+            t.style.display = "none";
+        }
+
+        function openFun() {
+            let sec = document.getElementById("back");
+            sec.style.display = 'block'
+        }
+
+        function closefun() {
+            let sec = document.getElementById("back");
+            sec.style.display = 'none'
+        }
+        function continfo() {
+            let cont = document.getElementById("color");
+            cont.style.display = "block";
+        }
+        function closef() {
+            let sec = document.getElementById("color");
+            sec.style.display = 'none'
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>
